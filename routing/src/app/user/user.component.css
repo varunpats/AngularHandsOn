@@ -1,0 +1,13 @@
+ul{
+    padding: 0;
+}
+
+a{
+    padding: 5px 8px;
+    border: 1px solid #333333;
+    list-style: none;
+}
+
+.active{
+    background: rgba(147, 241, 147, 0.527);
+}

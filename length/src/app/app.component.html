@@ -1,0 +1,13 @@
+<div class="childDiv">
+  <label for="message">Find Length of a String. ( With NgModel ) </label><br><br>
+  <input type="text" [(ngModel)]='str'>
+  <br>
+  {{ length() }}
+</div>
+<br>
+<div class="childDiv">
+  <label for="message">Find Length of a String. ( Without NgModel ) </label><br><br>
+  <input type="text" (keyup)="onKey($event)">
+  <br>
+  {{ lengthStr }}
+</div>

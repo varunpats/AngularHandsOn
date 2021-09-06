@@ -1,0 +1,11 @@
+<h2>Selected Flavor of Ice-cream</h2>
+<div [ngSwitch]="Flavor">
+
+  <div *ngSwitchCase="'vanilla'">You have selected Vanilla flavor</div>
+  <div *ngSwitchCase="'strawberry'">You have selected Strawberry flavor</div>
+  <div *ngSwitchCase="'mango'">You have selected Mango flavor</div>
+  <div *ngSwitchCase="'butter-scotch'">You have selected Butter Scotch flavor</div>
+
+  <div *ngSwitchDefault>Wrong Selection</div>
+
+</div>

@@ -1,0 +1,7 @@
+<div class="parentDiv">
+    <label for="message">Send message to Child component.</label><br><br>
+    <input type="text" #inputData><button type="submit" (click)="toChild(inputData)">Submit</button>
+</div>
+<br><br>
+<app-child (sendData)="getData($event)" [receiveTxt]="sendTxt"></app-child><br><br>
+<p>Message to Parent Component: {{ title }}</p>

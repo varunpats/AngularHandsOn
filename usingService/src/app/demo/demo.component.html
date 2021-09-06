@@ -1,0 +1,9 @@
+<label>Enter Number 1</label><br>
+<input type="number" #no1><br><br>
+<label>Enter Number 2</label><br>
+<input type="number" #no2><br><br>
+<button type="button" style="margin-right: 6px;" (click)="onAdd(no1,no2)">Add</button>
+<button type="button" (click)="onSub(no1,no2)">Subtract</button><br><br>
+<div *ngIf="ans">
+<label for="answer">Answer: </label>{{ ans }}
+</div>

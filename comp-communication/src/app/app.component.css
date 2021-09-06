@@ -1,0 +1,13 @@
+button{
+    margin-left: 6px;
+    background: rgb(120, 120, 236);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+.parentDiv{
+    max-width: 250px;
+    padding: 25px;
+    border: 1px solid #1a1a1a;
+    border-radius: 5px;
+}
